@@ -7,3 +7,6 @@
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I can debug better with coffee in hand and music playing in the background!
 
+
+## 📊 GitHub Stats
+![Aditya's GitHub stats](https://github-readme-stats.vercel.app/api?username=adityaprasa231195&show_icons=true&theme=tokyonight)
