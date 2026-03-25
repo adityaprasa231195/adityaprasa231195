@@ -5,7 +5,7 @@
 
 ## 🚀 About Me
 
-* 💻 Passionate about **Software Development, Android Apps, and Full-Stack Web (MERN)**
+* 💻 Passionate about **Software Development**
 * 🌱 Currently learning **Advanced C++, Cybersecurity, and Cloud Technologies**
 * 🤝 Interested in collaborating on **Open-Source C++ & System Projects**
 * 🎯 Goal: To become a **skilled software engineer & open-source contributor**
@@ -25,15 +25,9 @@
 
 ### 💻 Languages
 
-`C++` `JavaScript` `Java` `HTML` `CSS`
+`C++` `JavaScript` `Python` 
 
-### ⚙️ Frameworks & Libraries
 
-`React.js` `Node.js` `Express.js` `MongoDB`
-
-### 📱 Android
-
-`Android Studio` `XML` `Firebase (Basics)`
 
 ### ☁️ Cloud & Tools
 
