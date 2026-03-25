@@ -16,7 +16,8 @@
 ## 🌐 Connect With Me
 
 * 📧 Email: **[adityaprasad81044@zohomail.in](mailto:adityaprasad81044@zohomail.in)**
-* 💼 LinkedIn: **https://www.linkedin.com/in/aditya-prasad-1a7215359/**
+* ℹ️ LinkedIn: **https://www.linkedin.com/in/aditya-prasad-1a7215359/**
+* 💼 Portfolio: **https://portfolio-adityaprasad.netlify.app/**
 
 ---
 
