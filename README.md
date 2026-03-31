@@ -1,4 +1,6 @@
-<h1 align="center">Hi 👋, I'm Aditya Prasad</h1>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Aditya%20Prasad&fontSize=50&fontAlignY=35&animation=twinkling&color=gradient" />
+
+
 <h3 align="center">Aspiring Software Developer | Android Developer | MERN Stack Enthusiast | Open-Source Learner</h3>
 
 ---
