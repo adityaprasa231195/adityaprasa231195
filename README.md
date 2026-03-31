@@ -2,11 +2,10 @@
 
 
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Aditya+Prasad+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%92%BB;Open+Source+Contributor+%F0%9F%9A%80;Always+Learning+New+Things+%F0%9F%93%9A" alt="Typing SVG" />
+<<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Aditya+Prasad+%F0%9F%91%8B;Open+Source+Contributor+%F0%9F%9A%80;Always+Learning+New+Things+%F0%9F%93%9A" alt="Typing SVG" />
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ---
 
