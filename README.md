@@ -38,21 +38,12 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adityaprasa231195&theme=radical&v=3" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=adityaprasa231195&theme=radical" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=adityaprasa231195&theme=radical&v=3" />
+  <img src="https://streak-stats.demolab.com?user=adityaprasa231195&theme=radical" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityaprasa231195&layout=compact&theme=radical&v=3" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityaprasa231195&layout=compact&theme=tokyonight" />
-</p>
-
 ---
 
 ## 🔥 Current Focus
