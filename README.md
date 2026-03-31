@@ -44,7 +44,15 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=adityaprasa231195&theme=radical" />
 </p>
----
+
+<p align="center">
+  <img src="https://readme-stats-fast.vercel.app/api?username=adityaprasa231195&show_icons=true&theme=radical" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adityaprasa231195&theme=tokyo-night" />
+</p>
+
 
 ## 🔥 Current Focus
 
