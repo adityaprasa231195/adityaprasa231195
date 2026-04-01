@@ -59,7 +59,7 @@ Currently focused on strengthening my expertise in **C++**, **cybersecurity fund
 
 * 📧 Email: **[adityaprasad81044@zohomail.in](mailto:adityaprasad81044@zohomail.in)**
 * 💼 LinkedIn: **[www.linkedin.com/in/aditya-prasad-1a7215359](http://www.linkedin.com/in/aditya-prasad-1a7215359)**
-* 🌐 Portfolio: **https://portfolio-adityaprasad.netlify.app/**
+* 🌐 Portfolio: **https://prasadaditya.netlify.app/**
 
 ---
 
