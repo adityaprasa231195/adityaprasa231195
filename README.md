@@ -49,8 +49,6 @@ Currently focused on strengthening my expertise in **C++**, **cybersecurity fund
 ## 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=adityaprasa231195\&show_icons=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adityaprasa231195\&layout=compact)
-![GitHub Streak](https://streak-stats.demolab.com?user=adityaprasa231195)
 
 ---
 
@@ -58,7 +56,7 @@ Currently focused on strengthening my expertise in **C++**, **cybersecurity fund
 
 * 📧 Email: **[adityaprasad81044@zohomail.in](mailto:adityaprasad81044@zohomail.in)**
 * 💼 LinkedIn: **[www.linkedin.com/in/aditya-prasad-1a7215359](http://www.linkedin.com/in/aditya-prasad-1a7215359)**
-* 🌐 Portfolio: **portfolio-adityaprasad.netlify.app**
+* 🌐 Portfolio: **https://portfolio-adityaprasad.netlify.app/**
 
 ---
 
