@@ -48,7 +48,8 @@ Currently focused on strengthening my expertise in **C++**, **cybersecurity fund
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=adityaprasa231195\&show_icons=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=adityaprasa231195)
 
 ---
 
