@@ -1,60 +1,44 @@
-Here's your updated profile with the focus shifted to **Python, ML & AI**:
+# Aditya Prasad
+
+**Software Developer · Python & ML/AI · Cloud Explorer**
+
+Passionate software developer focused on building scalable, intelligent systems. Currently deepening expertise in machine learning, AI engineering, and cloud technologies — with a strong interest in open-source contribution and backend systems.
 
 ---
 
-# Hi, I'm Aditya Prasad 👋
-### Software Developer | Python Enthusiast | ML & AI Learner | Cloud Explorer
-Passionate software developer with a strong interest in building efficient, scalable, and intelligent systems.
-Currently focused on deepening my expertise in **Python**, **Machine Learning & AI**, and **cloud technologies**, while actively contributing to **open-source projects** and improving problem-solving skills.
+## Skills
+
+**Languages** &nbsp; `Python` `JavaScript` `C++`
+
+**Tools & Platforms** &nbsp; `Git` `GitHub` `Linux` `VS Code`
+
+**Areas of Interest** &nbsp; Machine Learning · Deep Learning · NLP · Data Science · Backend Development · Cloud Computing
 
 ---
 
-## 🚀 About Me
-* 💻 Passionate about **Software Development & Intelligent System Design**
-* 🌱 Currently learning **Advanced Python, Machine Learning, and Cloud Technologies**
-* 🤝 Open to collaborating on **Open Source, ML/AI, and Backend Projects**
-* 🎯 Aspiring to grow into a **skilled AI/ML Engineer and Open Source Contributor**
-* ☕ Fun fact: I debug best with **coffee and music**
+## Current Focus
+
+- Advancing machine learning and deep learning skills with Python — models, pipelines, and experimentation
+- Exploring AI fundamentals: neural networks, NLP, and applied AI systems
+- Building scalable ML/AI backends and deploying on cloud infrastructure
+- Contributing to open-source ML/AI projects
 
 ---
 
-## 🛠 Technical Skills
-### Languages
-`Python` `JavaScript` `C++`
+## GitHub Stats
 
-### Tools & Platforms
-`Git` `GitHub` `Linux` `VS Code`
-
-### Core Interests
-* Machine Learning & Deep Learning
-* Data Science & Analytics
-* AI Systems & NLP
-* Backend Development
-* Cloud Computing
-
----
-
-## 📈 Current Focus
-* 📚 Strengthening **Machine Learning & Deep Learning with Python**
-* 🤖 Exploring **AI Fundamentals, NLP, and Neural Networks**
-* ☁️ Learning **Cloud Deployment and Scalable AI/ML Systems**
-* 🌍 Contributing to **Open Source ML/AI Projects**
-
----
-
-## 📊 GitHub Stats
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=adityaprasa231195&theme=dark" alt="GitHub Streak Stats" />
 </p>
 
 ---
 
-## 📫 Connect With Me
-* 📧 **Email:** [adityaprasad81044@zohomail.in](mailto:adityaprasad81044@zohomail.in)
-* 💼 **LinkedIn:** [Aditya Prasad](http://www.linkedin.com/in/aditya-prasad-1a7215359)
-* 🌐 **Portfolio:** https://prasadaditya.netlify.app/
+## Connect
+
+[![Email](https://img.shields.io/badge/Email-adityaprasad81044%40zohomail.in-blue?style=flat-square)](mailto:adityaprasad81044@zohomail.in)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya%20Prasad-0A66C2?style=flat-square&logo=linkedin)](http://www.linkedin.com/in/aditya-prasad-1a7215359)
+[![Portfolio](https://img.shields.io/badge/Portfolio-prasadaditya.netlify.app-brightgreen?style=flat-square)](https://prasadaditya.netlify.app/)
 
 ---
 
-⭐ **Always learning, building, and improving.**
-
+*Always learning, building, and improving.*
