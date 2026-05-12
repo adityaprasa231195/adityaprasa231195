@@ -34,17 +34,3 @@
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
 </div>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=adityaprasa231195&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
-
-### 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=adityaprasa231195&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4" alt="Trophies" />
-</div>
