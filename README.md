@@ -15,10 +15,12 @@
 
 ### 💫 About Me
 
-⚙️ Working with:
-• Rust, C, C++, Python
-• System Programming
-• Data Structures & Algorithms (DSA)
+<p>⚙️ Working with:</p>
+<ul>
+  <li>Rust, C, C++, Python</li>
+  <li>System Programming</li>
+  <li>Data Structures &amp; Algorithms (DSA)</li>
+</ul>
 * 🧠 Deeply interested in **memory management, OS concepts, & optimization**
 * 🌐 Building user-friendly interfaces with **Frontend Web Development**
 * 🎓 Continuously learning and building high-performance applications
