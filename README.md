@@ -21,11 +21,10 @@
   <li>System Programming</li>
   <li>Data Structures &amp; Algorithms (DSA)</li>
 </ul>
-* 🧠 Deeply interested in **memory management, OS concepts, & optimization**
-* 🌐 Building user-friendly interfaces with **Frontend Web Development**
-* 🎓 Continuously learning and building high-performance applications
-* 🤝 Open to contributing to meaningful open-source projects
-
+🧠 Deeply interested in <strong>Memory Management, OS Concepts &amp; Optimization</strong><br>
+🌐 Building user-friendly interfaces with <strong>Frontend Web Development</strong><br>
+🎓 Continuously learning and building <strong>high-performance applications</strong><br>
+🤝 Open to contributing to <strong>meaningful open-source projects</strong>
 ---
 
 ### 💻 Tech Stack
