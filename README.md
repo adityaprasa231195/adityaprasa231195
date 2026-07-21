@@ -1,4 +1,4 @@
-````md
+
 <div align="center">
 
 # Hi, I'm Aditya 👋
@@ -114,4 +114,3 @@ Loading repository statistics...
 *"Programs must be written for people to read, and only incidentally for machines to execute."* — Harold Abelson
 
 </div>
-````
