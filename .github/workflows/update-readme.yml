@@ -1,31 +1,45 @@
-name: Update README
+name: Update Repository Language Stats
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
 
 jobs:
-  update-readme:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: anmol098/waka-readme-stats@master
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Update language statistics
+        env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_USERNAME: adityaprasa231195
+        run: |
+          python scripts/update_languages.py
 
-          SHOW_PROFILE_VIEWS: "False"
-          SHOW_COMMIT: "False"
-          SHOW_DAYS_OF_WEEK: "False"
-          SHOW_LANGUAGE: "True"
-          SHOW_PROJECTS: "False"
-          SHOW_OS: "False"
-          SHOW_EDITORS: "False"
-          SHOW_TIMEZONE: "False"
-          SHOW_LINES_OF_CODE: "False"
-          SHOW_LOC_CHART: "False"
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          SYMBOL_VERSION: "2"
-          BLOCKS: "█▓▒░"
+          git add README.md
+
+          git diff --staged --quiet || (
+            git commit -m "chore: update language statistics"
+            git push
+          )
