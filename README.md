@@ -1,7 +1,11 @@
+````md
 <div align="center">
 
-# Hello there, I'm Aditya! 👋
-**Developer focused on low-level systems & performance**
+# Hi, I'm Aditya 👋
+
+### Systems Programmer • Rust Enthusiast • Performance-Oriented Developer
+
+I enjoy building software close to the hardware—exploring operating systems, memory management, concurrency, and high-performance applications.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-00599C?style=for-the-badge&logo=google-chrome&logoColor=white)](https://prasadaditya.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aditya-prasad-1a7215359)
@@ -13,32 +17,101 @@
 
 ---
 
-### 💫 About Me
+# 💫 About Me
 
-<p>⚙️ Working with:</p>
-<ul>
-  <li>Rust, C, C++, Python</li>
-  <li>System Programming</li>
-  <li>Data Structures &amp; Algorithms (DSA)</li>
-</ul>
-🧠 Deeply interested in <strong>Memory Management, OS Concepts &amp; Optimization</strong><br>
-🌐 Building user-friendly interfaces with <strong>Frontend Web Development</strong><br>
-🎓 Continuously learning and building <strong>high-performance applications</strong><br>
-🤝 Open to contributing to <strong>meaningful open-source projects</strong>
+- 🦀 Building low-level software with **Rust**, **C**, and **C++**
+- ⚡ Passionate about **Operating Systems**, **Memory Management**, **Concurrency**, and **Performance Optimization**
+- 🌐 Building modern web applications with **TypeScript**, **JavaScript**, HTML, and CSS
+- 🐍 Using Python for scripting, tooling, and automation
+- 📚 Constantly learning systems internals and compiler concepts
+- 🤝 Open to meaningful open-source contributions
+
 ---
 
-### 💻 Tech Stack
+# 💻 Tech Stack
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=rust,c,cpp,python,typescript,javascript,html,css,nodejs,docker,linux,git,github,vscode" />
+</p>
+
+---
+
+# 📊 Repository Language Usage
+
+<!--START_SECTION:languages-->
+
+```text
+Loading repository statistics...
+```
+
+<!--END_SECTION:languages-->
+
+---
+
+# 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  <br/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <br/>
-  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=adityaprasa231195&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityaprasa231195&layout=compact&theme=tokyonight&hide_border=true" />
+
 </div>
+
+---
+
+# 🔥 GitHub Streak
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=adityaprasa231195&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 🚀 Featured Projects
+
+| Project | Description |
+|---------|-------------|
+| 🦀 **Project 1** | High-performance Rust application |
+| ⚡ **Project 2** | Systems programming project |
+| 🧠 **Project 3** | Memory management or OS project |
+| 🌐 **Project 4** | Full-stack web application |
+
+> Replace these with your actual repositories.
+
+---
+
+# 🌱 Currently Learning
+
+- Advanced Rust
+- Operating Systems
+- Compiler Design
+- Distributed Systems
+- Networking
+- Linux Internals
+
+---
+
+# 📫 Connect With Me
+
+<p align="center">
+
+<a href="https://prasadaditya.netlify.app/">🌐 Portfolio</a> •
+<a href="https://linkedin.com/in/aditya-prasad-1a7215359">LinkedIn</a> •
+<a href="https://x.com/meow_stack_4525">X</a> •
+<a href="mailto:adityaharishankarprasad@proton.me">Email</a>
+
+</p>
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting my profile!
+
+*"Programs must be written for people to read, and only incidentally for machines to execute."* — Harold Abelson
+
+</div>
+````
