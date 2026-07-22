@@ -54,17 +54,6 @@ CSS          ░░░░░░░░░░░░░░░░░░░░   0.4%
 
 ---
 
-# 📈 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=adityaprasa231195&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityaprasa231195&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
 
 # 🔥 GitHub Streak
 
