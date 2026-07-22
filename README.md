@@ -65,22 +65,16 @@ CSS          ░░░░░░░░░░░░░░░░░░░░   0.4%
 
 ---
 
-# 🚀 Featured Projects
 
-| Project | Description |
-|---------|-------------|
-| 🦀 **Project 1** | High-performance Rust application |
-| ⚡ **Project 2** | Systems programming project |
-| 🧠 **Project 3** | Memory management or OS project |
-| 🌐 **Project 4** | Full-stack web application |
 
-> Replace these with your actual repositories.
+
 
 ---
 
 # 🌱 Currently Learning
 
-- Advanced Rust
+- Advance C++
+- Rust
 - Operating Systems
 - Compiler Design
 - Distributed Systems
