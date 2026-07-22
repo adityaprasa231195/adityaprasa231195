@@ -52,22 +52,6 @@ CSS          ░░░░░░░░░░░░░░░░░░░░   0.4%
 
 <!--END_SECTION:languages-->
 
----
-
-
-# 🔥 GitHub Streak
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=adityaprasa231195&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-
-
-
 
 ---
 
