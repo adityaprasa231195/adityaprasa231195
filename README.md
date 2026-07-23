@@ -41,13 +41,13 @@ I enjoy building software close to the hardware—exploring operating systems, m
 <!--START_SECTION:languages-->
 
 ```text
-TypeScript   ███████░░░░░░░░░░░░░  37.3%
-Python       ███████░░░░░░░░░░░░░  32.7%
-C++          ████░░░░░░░░░░░░░░░░  22.1%
-JavaScript   █░░░░░░░░░░░░░░░░░░░   3.5%
-HTML         █░░░░░░░░░░░░░░░░░░░   2.9%
-Rust         ░░░░░░░░░░░░░░░░░░░░   1.2%
-CSS          ░░░░░░░░░░░░░░░░░░░░   0.4%
+TypeScript   ██████████░░░░░░░░░░  47.7%
+Python       █████░░░░░░░░░░░░░░░  27.0%
+C++          ████░░░░░░░░░░░░░░░░  18.2%
+JavaScript   █░░░░░░░░░░░░░░░░░░░   3.0%
+HTML         ░░░░░░░░░░░░░░░░░░░░   2.4%
+Rust         ░░░░░░░░░░░░░░░░░░░░   1.0%
+CSS          ░░░░░░░░░░░░░░░░░░░░   0.7%
 ```
 
 <!--END_SECTION:languages-->
