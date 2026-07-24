@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # Hi, I'm Aditya 👋
@@ -41,23 +40,28 @@ I enjoy building software close to the hardware—exploring operating systems, m
 <!--START_SECTION:languages-->
 
 ```text
-TypeScript   █████████░░░░░░░░░░░  47.4%
-Python       █████░░░░░░░░░░░░░░░  26.8%
-C++          ████░░░░░░░░░░░░░░░░  18.6%
-JavaScript   █░░░░░░░░░░░░░░░░░░░   3.0%
-HTML         ░░░░░░░░░░░░░░░░░░░░   2.4%
-Rust         ░░░░░░░░░░░░░░░░░░░░   1.1%
-CSS          ░░░░░░░░░░░░░░░░░░░░   0.7%
+Loading language statistics...
 ```
 
 <!--END_SECTION:languages-->
 
+---
+
+# 🔥 C Programming
+
+<!--START_SECTION:c-programming-->
+
+```text
+Loading C statistics...
+```
+
+<!--END_SECTION:c-programming-->
 
 ---
 
 # 🌱 Currently Learning
 
-- Advance C++
+- Advanced C++
 - Rust
 - Operating Systems
 - Compiler Design
