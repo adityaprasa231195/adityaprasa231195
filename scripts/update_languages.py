@@ -23,10 +23,12 @@ def get_repositories():
             f"https://api.github.com/users/{USERNAME}/repos"
             f"?per_page=100&page={page}"
         )
+
         r = requests.get(url, headers=HEADERS)
         r.raise_for_status()
 
         data = r.json()
+
         if not data:
             break
 
@@ -38,8 +40,10 @@ def get_repositories():
 
 def get_languages(repo_name):
     url = f"https://api.github.com/repos/{USERNAME}/{repo_name}/languages"
+
     r = requests.get(url, headers=HEADERS)
     r.raise_for_status()
+
     return r.json()
 
 
@@ -48,8 +52,10 @@ def progress_bar(percent):
     return "█" * filled + "░" * (BAR_LENGTH - filled)
 
 
-def build_section():
+def build_sections():
     totals = {}
+    c_bytes = 0
+    c_repositories = 0
 
     repos = get_repositories()
 
@@ -59,15 +65,20 @@ def build_section():
 
         langs = get_languages(repo["name"])
 
+        if "C" in langs:
+            c_repositories += 1
+            c_bytes += langs["C"]
+
         for lang, bytes_count in langs.items():
             totals[lang] = totals.get(lang, 0) + bytes_count
 
     total_bytes = sum(totals.values())
 
     if total_bytes == 0:
-        return "No language statistics found."
+        return "No language statistics found.", "No C statistics found."
 
-    lines = []
+    # Language section
+    language_lines = []
 
     for lang, count in sorted(
         totals.items(),
@@ -76,33 +87,60 @@ def build_section():
     ):
         pct = count / total_bytes * 100
         bar = progress_bar(pct)
-        lines.append(f"{lang:<12} {bar} {pct:5.1f}%")
+        language_lines.append(f"{lang:<12} {bar} {pct:5.1f}%")
 
-    return "```text\n" + "\n".join(lines) + "\n```"
+    language_section = (
+        "```text\n"
+        + "\n".join(language_lines)
+        + "\n```"
+    )
+
+    # C section
+    c_percent = (c_bytes / total_bytes * 100) if total_bytes else 0
+
+    c_section = (
+        "```text\n"
+        "C Programming Statistics\n\n"
+        f"C Repositories : {c_repositories}\n"
+        f"Total C Bytes  : {c_bytes:,}\n"
+        f"C Share        : {c_percent:.2f}%\n"
+        "```"
+    )
+
+    return language_section, c_section
+
+
+def replace_section(content, start, end, body):
+    new_block = f"{start}\n\n{body}\n\n{end}"
+
+    s = content.index(start)
+    e = content.index(end) + len(end)
+
+    return content[:s] + new_block + content[e:]
 
 
 def update_readme():
     with open(README, "r", encoding="utf-8") as f:
         content = f.read()
 
-    start = "<!--START_SECTION:languages-->"
-    end = "<!--END_SECTION:languages-->"
+    language_section, c_section = build_sections()
 
-    new_block = (
-        start
-        + "\n\n"
-        + build_section()
-        + "\n\n"
-        + end
+    content = replace_section(
+        content,
+        "<!--START_SECTION:languages-->",
+        "<!--END_SECTION:languages-->",
+        language_section,
     )
 
-    s = content.index(start)
-    e = content.index(end) + len(end)
-
-    updated = content[:s] + new_block + content[e:]
+    content = replace_section(
+        content,
+        "<!--START_SECTION:c-programming-->",
+        "<!--END_SECTION:c-programming-->",
+        c_section,
+    )
 
     with open(README, "w", encoding="utf-8") as f:
-        f.write(updated)
+        f.write(content)
 
 
 if __name__ == "__main__":
