@@ -35,9 +35,3 @@ I enjoy building software close to the hardware—exploring operating systems, m
 
 ---
 
-# 📊 Repository Language Usage
-
-<!--START_SECTION:languages-->
-
-```text
-Loading language statistics...
