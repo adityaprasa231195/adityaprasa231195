@@ -47,18 +47,6 @@ Loading language statistics...
 
 ---
 
-# 🔥 C Programming
-
-<!--START_SECTION:c-programming-->
-
-```text
-Loading C statistics...
-```
-
-<!--END_SECTION:c-programming-->
-
----
-
 # 🌱 Currently Learning
 
 - Advanced C++
