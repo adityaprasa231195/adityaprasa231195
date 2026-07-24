@@ -1,45 +1,40 @@
-name: Update Repository Language Stats
+name: Update Repository Language Statistics
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/20 * * * *"
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  update-language-stats:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install requests
 
-      - name: Update language statistics
+      - name: Generate Language Statistics
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GITHUB_USERNAME: adityaprasa231195
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/update_languages.py
+          python update_languages.py
 
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add README.md
-
-          git diff --staged --quiet || (
-            git commit -m "chore: update language statistics"
-            git push
-          )
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update repository language statistics"
+          file_pattern: README.md
