@@ -24,10 +24,10 @@ def get_repositories():
             f"?per_page=100&page={page}"
         )
 
-        r = requests.get(url, headers=HEADERS)
-        r.raise_for_status()
+        response = requests.get(url, headers=HEADERS)
+        response.raise_for_status()
 
-        data = r.json()
+        data = response.json()
 
         if not data:
             break
@@ -41,10 +41,10 @@ def get_repositories():
 def get_languages(repo_name):
     url = f"https://api.github.com/repos/{USERNAME}/{repo_name}/languages"
 
-    r = requests.get(url, headers=HEADERS)
-    r.raise_for_status()
+    response = requests.get(url, headers=HEADERS)
+    response.raise_for_status()
 
-    return r.json()
+    return response.json()
 
 
 def progress_bar(percent):
@@ -52,78 +52,64 @@ def progress_bar(percent):
     return "█" * filled + "░" * (BAR_LENGTH - filled)
 
 
-def build_sections():
+def build_language_section():
     totals = {}
-    c_bytes = 0
-    c_repositories = 0
 
-    repos = get_repositories()
-
-    for repo in repos:
+    for repo in get_repositories():
         if repo.get("fork"):
             continue
 
-        langs = get_languages(repo["name"])
+        languages = get_languages(repo["name"])
 
-        if "C" in langs:
-            c_repositories += 1
-            c_bytes += langs["C"]
-
-        for lang, bytes_count in langs.items():
-            totals[lang] = totals.get(lang, 0) + bytes_count
+        for language, byte_count in languages.items():
+            totals[language] = totals.get(language, 0) + byte_count
 
     total_bytes = sum(totals.values())
 
     if total_bytes == 0:
-        return "No language statistics found.", "No C statistics found."
+        return "```text\nNo language statistics found.\n```"
 
-    # Language section
-    language_lines = []
+    lines = []
 
-    for lang, count in sorted(
+    for language, byte_count in sorted(
         totals.items(),
-        key=lambda x: x[1],
+        key=lambda item: item[1],
         reverse=True,
     ):
-        pct = count / total_bytes * 100
-        bar = progress_bar(pct)
-        language_lines.append(f"{lang:<12} {bar} {pct:5.1f}%")
+        percent = byte_count / total_bytes * 100
+        bar = progress_bar(percent)
 
-    language_section = (
-        "```text\n"
-        + "\n".join(language_lines)
-        + "\n```"
+        lines.append(
+            f"{language:<12} {bar} {percent:5.1f}%"
+        )
+
+    return "```text\n" + "\n".join(lines) + "\n```"
+
+
+def replace_section(content, start, end, replacement):
+    start_index = content.index(start)
+    end_index = content.index(end) + len(end)
+
+    new_block = (
+        start
+        + "\n\n"
+        + replacement
+        + "\n\n"
+        + end
     )
 
-    # C section
-    c_percent = (c_bytes / total_bytes * 100) if total_bytes else 0
-
-    c_section = (
-        "```text\n"
-        "C Programming Statistics\n\n"
-        f"C Repositories : {c_repositories}\n"
-        f"Total C Bytes  : {c_bytes:,}\n"
-        f"C Share        : {c_percent:.2f}%\n"
-        "```"
+    return (
+        content[:start_index]
+        + new_block
+        + content[end_index:]
     )
-
-    return language_section, c_section
-
-
-def replace_section(content, start, end, body):
-    new_block = f"{start}\n\n{body}\n\n{end}"
-
-    s = content.index(start)
-    e = content.index(end) + len(end)
-
-    return content[:s] + new_block + content[e:]
 
 
 def update_readme():
-    with open(README, "r", encoding="utf-8") as f:
-        content = f.read()
+    with open(README, "r", encoding="utf-8") as file:
+        content = file.read()
 
-    language_section, c_section = build_sections()
+    language_section = build_language_section()
 
     content = replace_section(
         content,
@@ -132,15 +118,8 @@ def update_readme():
         language_section,
     )
 
-    content = replace_section(
-        content,
-        "<!--START_SECTION:c-programming-->",
-        "<!--END_SECTION:c-programming-->",
-        c_section,
-    )
-
-    with open(README, "w", encoding="utf-8") as f:
-        f.write(content)
+    with open(README, "w", encoding="utf-8") as file:
+        file.write(content)
 
 
 if __name__ == "__main__":
