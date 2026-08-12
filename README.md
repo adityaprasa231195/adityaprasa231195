@@ -6,7 +6,8 @@ I'm **Aditya**.
 
 ## Find me on
 
-* 🌐 **My Website:** https://adityaprasa231195.github.io/
-* 🦩 **Twitter:** https://x.com/meow_stack_4525
-* 🌱 **LinkedIn:** https://www.linkedin.com/in/aditya-prasad-1a7215359/
-* 📬 **Email:** [adityaharishankarprasad@proton.me](mailto:adityaharishankarprasad@proton.me)
+* 🌐 **My Website:** <a href="https://adityaprasa231195.github.io/">adityaprasa231195.github.io</a>
+* 𝕏 **Twitter:** <a href="https://x.com/meow_stack_4525">x.com/meow_stack_4525</a>
+* 💼 **LinkedIn:** <a href="https://www.linkedin.com/in/aditya-prasad-1a7215359/">linkedin.com/in/aditya-prasad-1a7215359</a>
+* ✉️ **Email:** <a href="mailto:adityaharishankarprasad@proton.me">[adityaharishankarprasad@proton.me](mailto:adityaharishankarprasad@proton.me)</a>
+
