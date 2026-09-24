@@ -2,7 +2,7 @@
 
 I'm **Aditya**.
 
-🌱 Spending time learning **C,C++,Rust and RISC-V**.
+🌱 Spending time learning **C,C++and RISC-V**.
 
 ## Find me on
 
