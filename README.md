@@ -19,5 +19,5 @@ I'm **Aditya**.
 ---
 
 <div align="center">
-  <img src="11156941907702973815.png" alt="Samurai" width="100%" />
+  <img src="ASCII Samurai_ Blade Through Shadow.png" alt="Samurai" width="100%" />
 </div>
