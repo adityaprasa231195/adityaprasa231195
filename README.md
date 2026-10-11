@@ -15,3 +15,31 @@ I'm **Aditya**.
 | 𝕏 **Twitter** | [x.com/meow_stack_4525](https://x.com/meow_stack_4525) |
 | 💼 **LinkedIn** | [linkedin.com/in/aditya-prasad-1a7215359](https://www.linkedin.com/in/aditya-prasad-1a7215359/) |
 | ✉️ **Email** | [adityaharishankarprasad@proton.me](mailto:adityaharishankarprasad@proton.me) |
+
+---
+
+```text
+                     /|
+                    / |
+                   /  |
+                  /   |
+                 /    |
+                /     |
+               /      |
+       ()     /      /
+       ||====O======*
+       ||     \
+     __||__    \
+    /      \    \
+   |  ^  ^  |    \
+   |  o  o  |     \
+    \  --  /       \
+   .-'----'-.       \
+  /  \    /  \       \
+ | |  \  /  | |       \
+ | |   \/   | |        \
+ ( )        ( )         \
+  |          |           \
+  |  ______  |            \
+  | |      | |             \
+  |_|      |_|              \
