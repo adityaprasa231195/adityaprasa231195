@@ -2,17 +2,16 @@
 
 I'm **Aditya**.
 
-🌱 Spending time learning **C, C++, and RISC-V**.
+🌱 Currently learning **C programming, embedded systems programming, Python development, and backend development**.
 
 ---
 
-### Find me on
+### Find Me Online
 
 | Platform | Link |
 | :--- | :--- |
-
-| 𝕏 **Twitter** | [x.com/meow_stack_4525](https://x.com/meow_stack_4525) |
-| 💼 **LinkedIn** | [linkedin.com/in/aditya-prasad-1a7215359](https://www.linkedin.com/in/aditya-prasad-1a7215359/) |
+| 𝕏 **Twitter** | [@meow_stack_4525](https://x.com/meow_stack_4525) |
+| 💼 **LinkedIn** | [Aditya Prasad](https://www.linkedin.com/in/aditya-prasad-1a7215359/) |
 | ✉️ **Email** | [adityaharishankarprasad@proton.me](mailto:adityaharishankarprasad@proton.me) |
 
 ---
