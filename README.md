@@ -6,11 +6,6 @@ I'm **Aditya**.
 
 ---
 
-### 🌐 My Portfolio
-
-💻 **[Visit My Portfolio](https://adityaprasa231195githubio.vercel.app/)**
-
----
 
 ### Find Me Online
 
