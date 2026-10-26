@@ -2,7 +2,7 @@
 
 I'm **Aditya**.
 
-🌱 Currently learning **C programming, embedded systems programming, Python development, and backend development**.
+🌱 Currently learning **C++ systems programming and embedded systems programming**.
 
 ---
 
