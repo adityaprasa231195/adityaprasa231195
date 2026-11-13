@@ -11,7 +11,7 @@ I'm **Aditya**.
 
 | Platform | Link |
 | :--- | :--- |
-| 🌐 **Portfolio** | [Visit My Portfolio](working) |
+| 🌐 **Portfolio** | [in progress](working) |
 | 𝕏 **Twitter** | [@meow_stack_4525](https://x.com/meow_stack_4525) |
 | 💼 **LinkedIn** | [Aditya Prasad](https://www.linkedin.com/in/aditya-prasad-1a7215359/) |
 | ✉️ **Email** | [adityaharishankarprasad@proton.me](mailto:adityaharishankarprasad@proton.me) |
