@@ -2,7 +2,7 @@
 
 I'm **Aditya**.
 
-🌱 Currently learning **C++ systems programming and embedded systems programming**.
+🌱 C & RUST
 
 ---
 
