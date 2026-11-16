@@ -2,7 +2,7 @@
 
 I'm **Aditya**.
 
-🌱 C & C++
+🌱 C , C++ & RUST
 
 ---
 
