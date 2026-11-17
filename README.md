@@ -17,6 +17,3 @@ I'm **Aditya**.
 | ✉️ **Email** | [aditya.prasad.4525@outlook.com](mailto:aditya.prasad.4525@outlook.com) |
 ---
 
-<div align="center">
-  <img src="ASCII Samurai_ Blade Through Shadow.png" alt="Samurai" width="100%" />
-</div>
